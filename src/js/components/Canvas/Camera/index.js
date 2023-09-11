@@ -3,8 +3,6 @@ import {useThree} from 'react-three-fiber'
 
 import {useDebugMode} from '~js/hooks'
 
-import Controls from './Controls'
-
 export default () => {
   const camera = useRef()
   const {size, setDefaultCamera} = useThree()
@@ -22,7 +20,6 @@ export default () => {
       position={[0, 0, 2]}
       args={[75, width / height, 0.1, 10]}
     />
-    {debugMode && <Controls />}
     </>
   )
 }
