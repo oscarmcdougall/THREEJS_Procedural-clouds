@@ -19,7 +19,7 @@ export default () => {
   return (
     <div className="credits">
       {randomMessage}
-      <div className="sub-message">from your friend Oscar</div>
+      <div className="sub-message">from your best friend Oscar</div>
 
       <style jsx>{`
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@300&display=swap');
